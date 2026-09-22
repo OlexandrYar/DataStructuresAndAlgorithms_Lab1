@@ -23,5 +23,9 @@ public class Test {
         testList.removeAll();
         System.out.println();
         System.out.println("Size of the list: " + testList.size());
+
+        //Exception tests
+        testList.add(51,"Rabbit");
+
     }
 }
